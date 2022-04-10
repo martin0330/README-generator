@@ -32,11 +32,6 @@ const questions = [
         }
     },
     {
-        name: 'repository',
-        type: 'input',
-        message: 'What is your GitHub repository name?'
-    },
-    {
         name: 'projectName',
         type: 'input',
         message: 'What is your project name?',
