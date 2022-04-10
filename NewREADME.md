@@ -31,9 +31,10 @@
   undefined
   
   ## Table of Contents
-  - [Description](#projectDescription)
-  - [Installation](#installation)
-  - [Contributions](#contributor)
-  - [Website](#website)
-  - [Questions](#questions)
-  - [Licenses](#license)
+  [Description] (#projectDescription)
+  [Installation] (#installation)
+  [Contributions] (#contributor)
+  [Website] (#website)
+  [Questions] (#questions)
+  [Licenses] (#license)
+
