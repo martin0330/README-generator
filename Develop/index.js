@@ -45,6 +45,19 @@ const questions = [
         }
     },
     {
+        name: 'email',
+        type: 'input',
+        message: 'What is your email?',
+        validate: emailInput => {
+            if (emailInput) {
+                return true
+            } else {
+                console.log('Please enter your email!')
+                return false;
+            }
+        }
+    },
+    {
         name: 'projectDescription',
         type: 'input',
         message: 'Please provide a description for your project',
@@ -55,6 +68,32 @@ const questions = [
                 console.log('Please provide a description');
                 return false;
             }  
+        }
+    },
+    {
+        name: 'installation',
+        type: 'input',
+        message: 'Enter installation instructions',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else{
+                console.log('Please enter installation instructions')
+                return false
+            }
+        }
+    },
+    {
+        name: 'usage',
+        type: 'input',
+        message: 'Enter usage description',
+        validate: usageInput => {
+            if (usageInput) {
+                return true
+            } else {
+                console.log('Please enter usage description')
+                return false;
+            }
         }
     },
     {
