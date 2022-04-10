@@ -28,6 +28,14 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Contributions](#contributions)
+  - [Website](#website)
+  - [Questions](#questions)
+  - [Licenses](#licenses)
+
   ## Description
   ${data.projectDescription}
 
@@ -43,7 +51,7 @@ function generateMarkdown(data) {
   ## Languages
   ${data.languages}
 
-  ## Website link
+  ## Website
   ${data.website}
 
   ## Contributions
@@ -56,14 +64,6 @@ function generateMarkdown(data) {
 
   ## Licenses
   ${renderLicenseSection(data.license)}
-  
-  ## Table of Contents
-  - [Description](#projectDescription)
-  - [Installation](#installation)
-  - [Contributions](#contributor)
-  - [Website](#website)
-  - [Questions](#questions)
-  - [Licenses](#license)
 
 `;
 }
