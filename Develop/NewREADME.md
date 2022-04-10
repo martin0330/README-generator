@@ -1,33 +1,27 @@
 # Project Name
-  readme generator
-  undefined
-
-  ## Name
-  Martin
-
-  ## GitHub Name
-  martin0330
+  README generator
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
   ## Description
-  sdjhcdsjks
+  Our task is to create a professional readme generator using the command line through user input from questions we created
 
   ## Installation
-  schdshjc
+  1. Clone started code 2. run command install NPM 3. run node index 
 
   ## Usage
-  sdhcbsdjkbcs
+  You can use this file to generate a README for your project
 
   ## Tests
-  jsdckjsdc
+  Run this test on your local machine
 
   ## Languages
   JavaScript,HTML,CSS,ES6,jQuery,Bootstrap,Node
 
   ## Website link
-  vdvdfv
+  sjdnckds
 
   ## Contributions
-  martin
+  Martin Cruz
 
   ## Questions
   Link to my github (https://github.com/martin0330)
@@ -42,4 +36,5 @@
   [Contributions] (#contributor)
   [Website] (#website)
   [Questions] (#questions)
+  [Licenses] (#license)
 
