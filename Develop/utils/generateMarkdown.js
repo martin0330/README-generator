@@ -43,6 +43,9 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
+  ## Tests
+  ${data.tests}
+
   ## Languages
   ${data.languages}
 

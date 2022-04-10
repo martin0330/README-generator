@@ -97,6 +97,19 @@ const questions = [
         }
     },
     {
+        type: 'input',
+        name: 'tests',
+        message: 'What are the steps for testing?',
+        validate: testsInput => {
+            if (testsInput) {
+                return true;
+            } else {
+                console.log('Please enter the steps for testing!');
+                return false;
+            }
+        }
+    },
+    {
         type: 'checkbox',
         name: 'languages',
         message: 'What did you do this project with? (Check all that apply)',
